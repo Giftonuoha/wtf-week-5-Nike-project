@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+   
+}
+
+.wrapper{
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    margin: 20px 80px 50px 50px;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #842A3C, #F2A75C, #BDCBB8);
+    margin-left: 10%;
+}
+
+.content {
+    position: relative;
+    background-color: #fff;
+    height: 90vh;
+    width: 80%;
+    top: 8%;
+    margin: 0 auto;
+    background: rgb(251,164,136);
+    background: radial-gradient(circle, rgba(251,164,136,1) 5%, rgba(255,255,255,1) 33%);
+}
+
+.logo1 {
+    width: 70px;
+}
+
+header {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 9px;
+    position: absolute;
+    width: 95%;
+}
+
+nav {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.icon {
+    width: 15px;
+    margin-right: 10px;
+}
+
+ul {
+    display: inline-flex;
+    padding: 20px;
+   
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.icon2 {
+    background-color: gray;
+    padding: 3px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    filter: grayscale(100%);
+}
+
+h1 {
+    top: 100px;
+    position: absolute;
+    font-size: 150px;
+    text-align: justify;
+    letter-spacing: 5px;
+    line-height: 90px;
+    text-align: center;
+    margin-left: 99px;
+    z-index: -0.8;
+
+}
+
+.shoe {
+    width: 250px;
+    margin-top: 120px;
+    margin-left: 333px;
+    position: absolute;
+    box-shadow: 5px 5px 5px #FBce87 #FBA488;
+}
+
+.text {
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 540px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.semicircle1 {
+    position: absolute;
+    width: 150px;
+    margin-top: -40px;
+    margin-left: 60px;
+}
+
+.DOIT {
+    width: 45%;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.DOIT h2 {
+    margin-bottom: 10px;
+}
+
+.DOIT p {
+     font-size: 9px;
+     justify-content: center;
+     text-align: center;
+     margin-bottom: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.DOIT button {
+       margin-bottom: 10px;
+       background-color: black;
+       color: #fff;
+       border-radius: 20px;
+       padding: 10px;
+       width: 120px;
+       
+       
+}
+
+.semicircle2 {
+    position: absolute;
+    width: 220px;
+    margin-top: -140px;
+    margin-left: 590px;
+}
+
+.radial {
+position: absolute;
+width: 120px;
+height: 110px;
+margin-top: 250px;
+margin-left: 100px;
+z-index: 1;
+background-image: linear-gradient(to bottom right, #e00d38, #F2A75C, #BDCBB8);
+border-radius: 100%;
+font-size: 5px;
+}
+
+.practical {
+    background-color: purple;
+}
+
+
+.round {
+    font-size: 5px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 120px;
+    z-index: 1;
+    color: #fff;
+    font-weight: 600;
+}
+
+i {
+    font-size: 5px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 150px;
+    z-index: 1;
+    color: #fff;
+    font-weight: 600;
+}
+
+.badge{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 200px;
+}
